@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.main-header {
+    display: flex;
+    justify-content: center;
+    /* align-content: flex-start; */
+    /* justify-content: space-evenly; */
+    /* margin-left: 150px; */
+    /* margin-bottom: 100%; */
+    /* padding: 10px; */
+    justify-content: space-between;
+    /* margin-top: 100%; */
+    /* width: 50%; */
+    justify-content: flex-end;
+    margin-top: 10px;
+    
+    /* align-items: center; */
+
+}
+
+.main-header img {
+    width: 24px;
+    height: 24px;
+}
+
+.main-header-right{
+    display: flex;
+    /* justify-content: flex-end; */
+    justify-content: space-between;
+    gap: 30px;
+    margin-right: 200px;
+}
+
+.main-header-left{
+    display: flex;
+    /* gap: 5x; */
+    justify-content: center;
+    margin-right: 150px;
+}
+.main-header-left .search-bar{
+    display: flex;
+    width: 400px;
+    border-radius: 10px;
+    border: none;
+    background-color: #cbd5e1;    
+}
+
+
+.profile-header-container{
+    display: flex;
+    justify-content: flex-end; 
+    margin-top: 20px;
+    justify-content: center;
+    justify-content: space-around;
+    
+    
+
+}
+
+.profile-header{
+    display: flex;
+    margin-left: 100px;
+    
+}
+.profile-header img{
+    width: 24px;
+    height: 32px;
+}
+
+.greeting{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.greeting p {
+    font-size: 10px;
+}
+.greeting h2{
+    font-size: 15px;
+}
+.user-actions button{
+    margin-right: 20px;
+    border-radius: 10px;
+    padding: 4px 20px;
+    border: none;
+    background-color:#0284c7;
+    color: white;
+}
+
+.food-section{
+    display: flex;
+    /* justify-content: center; */
+    background-color: #cbd5e1;
+    width: 900px;
+    margin-left: 270px;
+    margin-bottom: 20px;
+    /* justify-content: flex-end; */
+
+}
+
+.foods{
+    display: flex;
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    gap: 40px;
+    width: 300px;
+    /* padding: 10px; */
+    flex-wrap: wrap;
+    
+}
+
+.food-card{
+    display: flex;
+    border: 1px solid;
+    border-radius: 10px;
+    /* width: 300px; */
+    padding:20px;
+    /* align-items: center; */
+    margin-top: 50px;
+    text-align: center;
+    background-color: white;
+}
+
+.body {
+    flex: 1;
+    display: flex;
+  }
+  
+  .sidebar {
+    flex-shrink: 0;
+    padding: 16px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 16px;
+  }
+  
+/* .side-bar{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    /* height: 100%; */
+    /* padding-bottom: 100%; */
+    
